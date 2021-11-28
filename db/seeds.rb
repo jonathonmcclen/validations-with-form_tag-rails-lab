@@ -1,5 +1,12 @@
+Author.destroy_all
+Post.destroy_all
+
 Author.create!(
   name: "Ada Lovelace", email: "ada@the-history-of-programming.com", phone_number: "5558023384"
+)
+
+Author.create!(
+  name: "Booty", email: "dogwater@gmail.com", phone_number: "0000000000"
 )
 
 Post.create!(
